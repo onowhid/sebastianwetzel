@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/userstyle.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -13,9 +14,60 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Willkommen!</h1>
-    <p>Dies ist nur ein Test</p>
+  	<nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="/index.html">Sebastian Wetzel</a>
+  </div>
 
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <form class="navbar-form navbar-right" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Suche...">
+      </div>
+      <button type="submit" class="btn btn-default">Finden</button>
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="https://iversity.org/">iversity</a></li>      
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="https://www.virtualbox/wiki/Downloads">Virtual Box</a></li>
+          <li><a href="http://www.ubuntu.com/download/desktop">Ubuntu</a></li>
+          <li><a href="http://www.eclipse.org/downloads">Eclipse</a></li>          
+        </ul>
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+  	
+  	<div class="content-wrapper">
+    	<div class="headline">
+    		<h1>Hey!</h1>
+    		<p>Not much here...yet.</p>
+    	</div>
+	<div class="col-md-4">
+		<p>This is a first column</p>
+	
+	</div>
+	<div class="col-md-4">
+		<p>And this is the second column</p>
+	
+	</div>
+	<div class="col-md-4">
+		<p>And you guess it, this is the third column. Who would have thought!</p>
+	</div>
+	
+	</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="//code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
